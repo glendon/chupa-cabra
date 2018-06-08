@@ -1,0 +1,6 @@
+CREATE TABLE `Animal` (
+  `Id` bigint NOT NULL AUTO_INCREMENT,
+  `Name` char(52) NOT NULL,
+  `CreatedAt` datetime NOT NULL,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;

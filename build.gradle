@@ -1,0 +1,21 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    jcenter()  
+}
+
+dependencies {
+    compile 'com.google.guava:guava:21.0'
+    compile 'com.github.shyiko:mysql-binlog-connector-java:0.16.0'
+    testCompile 'junit:junit:4.12'         
+}
+
+mainClassName = 'App'
